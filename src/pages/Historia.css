@@ -1,0 +1,20 @@
+.historia {
+    padding: 20px;
+}
+
+.historia img {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: auto;
+}
+
+.historia h1 {
+    color: green;
+    text-align: center;
+}
+
+.historia p {
+    font-size: 18px;
+    line-height: 1.5;
+}

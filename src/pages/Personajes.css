@@ -1,0 +1,24 @@
+.personajes {
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    border: 3px solid purple;
+    padding: 15px;
+    flex: 1;
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h2 {
+    color: green;
+}

@@ -1,0 +1,73 @@
+body {
+    background-color: yellow;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.inicio {
+    width: 95%;
+    margin: auto;
+    border: 4px solid purple;
+}
+
+h1 {
+    text-align: center;
+    color: green;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    border-top: 4px solid purple;
+    border-bottom: 4px solid purple;
+    padding: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contenido {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.carrusel {
+    width: 60%;
+    border: 4px solid purple;
+}
+
+.carrusel img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.card {
+    width: 40%;
+    border: 4px solid purple;
+    padding: 20px;
+}
+
+.card h2 {
+    color: green;
+}
+
+.card p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer {
+    border-top: 4px solid purple;
+    text-align: center;
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+}
